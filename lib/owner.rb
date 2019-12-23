@@ -35,7 +35,8 @@ class Owner
   end
   
   def buy_cat(cat)
-    cat.owner = self 
+    cat_to_buy = cats.find { |kitty| kitty.name == cat }
+    cat_to_buy.owner = self 
   end
   
   def list_pets
