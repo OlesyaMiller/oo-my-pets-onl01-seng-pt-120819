@@ -53,8 +53,8 @@ class Owner
   end
   
   def list_pets
-    Dog.all.select {|dog| dog.owner == self }
-    Cat.all.select {|cat| cat.owner == self }
+    dogs 
+    cats 
   end
 
 end
