@@ -61,10 +61,11 @@ class Owner
   end
 
   def sell_pets 
-    all_pets = []
-    all_pets << cats
-    all_pets << dogs 
-    all_pets.each {|pet| pet.mood = "nervous" }
+    # all_pets = []
+    # all_pets << cats
+    # all_pets << dogs 
+    dogs.each {|pet| pet.mood = "nervous" }
+    cats.each {|pet| pet.mood = "nervous" }
   end 
 end
 
