@@ -37,7 +37,11 @@ class Owner
   def buy_cat(cat)
     cat.owner = self 
   end
-end
+  
+  def list_pets
+    def songs 
+    Song.all.select {|song| song.artist == self }
+  end
 
 
 
