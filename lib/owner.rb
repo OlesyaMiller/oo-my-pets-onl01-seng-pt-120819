@@ -64,8 +64,8 @@ class Owner
     # all_pets = []
     # all_pets << cats
     # all_pets << dogs 
-    dogs.each {|pet| pet.owner = "nervous" }
-    cats.each {|pet| pet.owner = "nervous" }
+    dogs.each {|pet| pet.mood = "nervous" }
+    cats.each {|pet| pet.mood = "nervous" }
     dogs.each {|pet| pet.owner = "nervous" }
     cats.each {|pet| pet.owner = "nervous" }
   end 
