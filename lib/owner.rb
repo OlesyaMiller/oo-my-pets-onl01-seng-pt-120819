@@ -52,10 +52,10 @@ class Owner
     cats.each {|cat| cat.mood = "happy"}
   end
   
-  # def list_pets
-  #   Dog.all.select {|dog| dog.owner == self }
-  #   Cat.all.select {|cat| cat.owner == self }
-  # end
+  def list_pets
+    Dog.all.select {|dog| dog.owner == self }
+    Cat.all.select {|cat| cat.owner == self }
+  end
 
 end
 
