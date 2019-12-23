@@ -64,6 +64,7 @@ class Owner
     binding.pry 
     all_pets = []
     all_pets << cats
+    all_pets << dogs 
   end 
 end
 
