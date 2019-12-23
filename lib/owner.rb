@@ -39,8 +39,8 @@ class Owner
   end
   
   def list_pets
-    def songs 
-    Song.all.select {|song| song.artist == self }
+    Dog.all.select {|dog| dog.owner == self }
+    Cat.all.select {|cat| cat.owner == self }
   end
 
 
