@@ -43,6 +43,13 @@ class Owner
   def buy_dog(dog)
     dog_to_buy = Dog.new(dog, self )
   end
+  
+  def walk_dogs
+    dogs.each {|dog| dog.mood = "happy"}
+  end
+  
+  
+  
   # def list_pets
   #   Dog.all.select {|dog| dog.owner == self }
   #   Cat.all.select {|cat| cat.owner == self }
