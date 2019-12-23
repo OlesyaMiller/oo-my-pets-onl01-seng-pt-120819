@@ -1,7 +1,7 @@
 class Cat
 
-  attr_accessor :name, :owner 
-
+  attr_accessor :owner 
+  attr_reader :name 
   def initialize(name, owner)
     @name = name 
     #owner = Owner.all.find {|owner| owner.cat == @name }
