@@ -61,10 +61,10 @@ class Owner
   end
 
   def sell_pets 
-    binding.pry 
     all_pets = []
     all_pets << cats
     all_pets << dogs 
+    all_pets.each {|pet| pet.mood = "nervous" && pet.owner = nil }
   end 
 end
 
