@@ -40,6 +40,9 @@ class Owner
     cat_to_buy = Cat.new(cat, self )
   end
   
+  def buy_dog(dog)
+    dog_to_buy = Dog.new(dog, self )
+  end
   # def list_pets
   #   Dog.all.select {|dog| dog.owner == self }
   #   Cat.all.select {|cat| cat.owner == self }
