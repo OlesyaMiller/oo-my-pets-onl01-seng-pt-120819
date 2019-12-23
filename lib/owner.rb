@@ -1,4 +1,4 @@
-require 
+require 'pry'
 
 class Owner
   attr_reader :name, :species
@@ -41,10 +41,10 @@ class Owner
     cat_to_buy.owner = self 
   end
   
-  def list_pets
-    Dog.all.select {|dog| dog.owner == self }
-    Cat.all.select {|cat| cat.owner == self }
-  end
+  # def list_pets
+  #   Dog.all.select {|dog| dog.owner == self }
+  #   Cat.all.select {|cat| cat.owner == self }
+  # end
 
 end
 
