@@ -63,7 +63,7 @@ class Owner
   def sell_pets 
     binding.pry 
     all_pets = []
-    all_pets << cats, dogs 
+    all_pets << cats
   end 
 end
 
