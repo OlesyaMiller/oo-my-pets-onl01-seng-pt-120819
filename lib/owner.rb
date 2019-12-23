@@ -60,6 +60,11 @@ class Owner
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end
 
+  def sell_pets 
+    all_pets = []
+    all_pets << cats, dogs 
+    binding.pry 
+  end 
 end
 
 
