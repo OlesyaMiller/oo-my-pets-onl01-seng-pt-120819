@@ -6,8 +6,8 @@ class Owner
     @species = "human"
   end
   
-  def say_spieces
-    puts "I am a #{@spieces}."
+  def say_species
+    puts "I am a #{@species}."
   end
 
 end
